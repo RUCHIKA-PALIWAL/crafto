@@ -1,0 +1,218 @@
+/* media screen responsive */
+
+@media screen and (max-width: 1180px) {
+  .navbar-nav {
+    padding-left: 0px;
+    margin: 20px 0;
+  }
+  .hero-heading {
+    margin-top: 15%;
+  }
+
+  .hero-heading .main-heading {
+    font-size: 40px;
+  }
+
+  .hero-heading p {
+    font-size: 18px;
+  }
+  .about-heading h4 {
+    font-size: 18px;
+  }
+  .about-content h3 {
+    font-size: 30px;
+  }
+  svg {
+    bottom: -1px;
+  }
+
+  .social-img {
+    width: 30%;
+  }
+  .services-heading {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .services-heading h3 {
+    font-size: 30px;
+  }
+  .upper-btn-swiper {
+    background-color: transparent;
+
+    right: -1rem;
+  }
+  .digital-heading h3 {
+    font-size: 30px;
+  }
+  .testimonial .testimonial-heading h3 {
+    font-size: 30px;
+  }
+  .blog-section .blog-heading h3 {
+    font-size: 30px;
+  }
+  .testimonial-content p {
+    font-size: 14px;
+    margin-left: 40px;
+  }
+  .blog-section {
+    margin-top: 40px;
+  }
+  .blog-section .blog-heading .btn-1 {
+    bottom: 10px;
+  }
+  #meun-items {
+    padding: 15px;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .hero-heading span {
+    justify-content: center;
+  }
+  .about-heading {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .about-heading h3 {
+    font-size: 18px;
+  }
+  .about-heading p {
+    font-size: 15px;
+  }
+  .about-content p {
+    font-size: 15px;
+  }
+  .item-heading h3 {
+    font-size: 35px;
+  }
+
+  .social-img img {
+    width: 80%;
+    margin-top: 10px;
+  }
+  .services-heading {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .services-heading h3 {
+    margin: 0;
+    padding: 0;
+  }
+  .services-heading p {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .upper-btn-swiper {
+    font-size: 20px;
+    margin-top: 3rem;
+  }
+
+  .digital .digital-link ul {
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .digital-heading h3 {
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .wrapper .card {
+    margin-bottom: 20%;
+    height: 500px;
+  }
+  .card .card-content .card-title {
+    font-size: 1rem;
+
+    margin-bottom: 10px;
+  }
+
+  .card .card-content .card-text {
+    padding-bottom: 5px;
+  }
+  .blog-section {
+    height: 80vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero-heading {
+    padding-top: 20%;
+    text-align: center;
+    margin: auto;
+  }
+  .hero-heading .main-heading {
+    font-size: 30px;
+  }
+  .hero-heading h1 span {
+    font-size: 14px;
+  }
+
+  .hero-heading p {
+    margin-top: 15px;
+  }
+
+  .about-heading h3 {
+    font-size: 15px;
+  }
+
+  .about-heading p {
+    font-size: 15px;
+  }
+
+  .services-heading p {
+    margin-bottom: 60px;
+  }
+
+  .about-content p {
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .about-content h3 {
+    text-align: center;
+  }
+
+  .social-img img {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .upper-btn-swiper {
+    right: 10px;
+    top: -7rem;
+  }
+  .item-1 {
+    width: 50%;
+  }
+
+  .digital .digital-img {
+    margin-top: 10px;
+  }
+  .testimonial-content p {
+    margin-left: 0px;
+  }
+  .testimonial-content img {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .hero-heading p {
+    font-size: 15px;
+  }
+
+  .hero-heading .btn-1 {
+    padding: 15px;
+  }
+
+  .hero-heading .btn {
+    padding: 10px;
+  }
+}
